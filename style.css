@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock{
+    color: white;
+    font-size: 4rem;
+}
+
+button{
+    padding: 1.25rem;
+    width: 200px;
+    border: none;
+    box-shadow: white;
+    cursor: pointer;
+border-radius: 50px;
+margin: 30px;
+font: 100 1.5rem sans-serif;
+}
+
+button:hover{
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
